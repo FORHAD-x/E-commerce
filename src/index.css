@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";
 
 @theme {
@@ -72,3 +73,18 @@
   @apply w-[350px] md:w-full h-[320px] md:h-full;
  grid-area: 6/10/8/12;
 }
+=======
+@import "tailwindcss";
+
+@theme {
+    --font-Poppins: "Poppins", sans-serif;
+    --color-primary: #333333;
+    --color-secondary: #666666;
+    --color-brand:#B88E2F;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+>>>>>>> cc0cfb8fd75f72f4a5de9bfb17a1e9eb87c560bf
