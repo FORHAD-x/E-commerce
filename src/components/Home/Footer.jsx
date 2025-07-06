@@ -65,9 +65,9 @@ const Footer = () => {
         <h3 className="font-Poppins font-medium text-[#9F9F9F] text-[16px] pb-4">Links</h3>
         <ul className="flex flex-col gap-4 text-sm">
           <Link to="/">Home</Link>
-          <Link to="/">Shop</Link>
-          <Link to="/">About</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/About">About</Link>
+          <Link to="/Contact">Contact</Link>
         </ul>
       </div>
 
@@ -75,9 +75,9 @@ const Footer = () => {
       <div className="font-Poppins font-medium text-[#000000] text-[16px]">
         <h3 className="font-Poppins font-medium text-[#9F9F9F] text-[16px] pb-4">Help</h3>
         <ul className="flex flex-col gap-4 text-sm">
-          <Link to="/">Payment Options</Link>
-          <Link to="/">Returns</Link>
-          <Link to="/">Privacy Policies</Link>
+          <Link to="/Payment">Payment Options</Link>
+          <Link to="/Returns">Returns</Link>
+          <Link to="/Privacy">Privacy Policies</Link>
         </ul>
       </div>
 

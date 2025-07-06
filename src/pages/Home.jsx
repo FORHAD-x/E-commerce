@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 import React from 'react'
-import Hero from '../components/Hero'
-import Browse from '../components/Browse'
-import Products from '../components/Products'
-import Explore from '../components/Explore'
-import Footer from '../components/Footer'
-import Furniture from '../components/Furniture'
+import Hero from '../components/Home/Hero'
+import Browse from '../components/Home/Browse'
+import Products from '../components/Home/Products'
+import Explore from '../components/Home/Explore'
+import Furniture from '../components/Home/Furniture'
 
 const Home = () => {
   return (
@@ -15,28 +13,9 @@ const Home = () => {
     <Products/>
     <Explore/>
     <Furniture/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }
 
-=======
-import React from 'react'
-import Hero from '../components/Hero'
-import Browse from '../components/Browse'
-import Products from '../components/Products'
-import Explore from '../components/Explore'
-
-const Home = () => {
-  return (
-    <>
-    <Hero/>
-    <Browse/>
-    <Products/>
-    <Explore/>
-    </>
-  )
-}
-
->>>>>>> cc0cfb8fd75f72f4a5de9bfb17a1e9eb87c560bf
 export default Home
