@@ -14,7 +14,9 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
 
         <div>
+          <Link to={"/"}>
           <img src="public/logo.png" alt="logo" className='w-30' />
+          </Link>
         </div>
 
         {/* Hamburger (Mobile) */}

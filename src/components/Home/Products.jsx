@@ -1,5 +1,5 @@
 import React from 'react'
-import Productitems from './Productitems'
+import Productitems from './ProductItems'
 import { Link } from 'react-router-dom'
 
 const Products = () => {

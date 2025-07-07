@@ -72,3 +72,16 @@
   @apply w-[350px] md:w-full h-[320px] md:h-full;
  grid-area: 6/10/8/12;
 }
+
+
+.Product_pagination li a{
+@apply py-4 px-6 bg-[#F9F1E7] rounded-xl
+
+}
+.Product_pagination .selected a{
+@apply  bg-brand
+
+}
+.Product_pagination .previous{ 
+@apply hidden
+}

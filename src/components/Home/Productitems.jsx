@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Productitems = () => {
+const ProductItems = () => {
   return (
     <div className='relative group'>
         <img src="public/product1.png" alt="product" className='w-full' />
@@ -21,4 +21,4 @@ const Productitems = () => {
   )
 }
 
-export default Productitems
+export default ProductItems
