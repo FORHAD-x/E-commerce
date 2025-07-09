@@ -8,7 +8,7 @@ import Feature from '../components/Feature'
 const Shop = () => {
   return (
     <>
-    <Banner/>
+    <Banner title={"Shop"}/>
     <Filter/>
     <AllProducts itemsPerPage={8}/>
     <Feature/>

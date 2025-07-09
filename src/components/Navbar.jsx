@@ -9,6 +9,10 @@ import CartSidebar from './Cart/CartSidebar'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [sideCart ,setSideCart] = useState(false)
+  const handleSideCart = (e)=>{
+    setSideCart(e)
+  }
   return (
     <>
     <nav className='py-7'>
@@ -46,12 +50,14 @@ const Navbar = () => {
           <li><Link to={"/user"}><TbUserExclamation /></Link></li>
           <li><Link to={"/"}><CiSearch /></Link></li>
           <li><Link to={"/fav"}><GrFavorite /></Link></li>
-          <li><Link to={"/cart"}><AiOutlineShoppingCart /></Link></li>
+          <li onClick={()=> setSideCart(true)}><AiOutlineShoppingCart cursor={"pointer"}/></li>
         </ul>
       </div>
       </div>
     </nav>
-    <CartSidebar/>
+    {
+      sideCart && <CartSidebar close={handleSideCart} />
+    }
     </>
   )
 }

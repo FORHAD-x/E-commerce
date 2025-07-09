@@ -4,12 +4,14 @@ import Home from './pages/Home'
 import Shop from './pages/Shop'
 import NotFound from './components/NotFound/NotFound'
 import Layout from './components/Layout'
+import Cart from './pages/Cart'
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route index element={<Home/>} />
       <Route path='/shop' element={<Shop/>} />
+      <Route path='/Cart' element={<Cart/>} />
       <Route path='*' element={<NotFound/>} />
 
     </Route>
