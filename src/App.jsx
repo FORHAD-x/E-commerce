@@ -5,6 +5,9 @@ import Shop from './pages/Shop'
 import NotFound from './components/NotFound/NotFound'
 import Layout from './components/Layout'
 import Cart from './pages/Cart'
+import Checkout from './pages/Checkout'
+import Details from './pages/ProductDetails'
+import ProductDetails from './pages/ProductDetails'
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
@@ -12,6 +15,8 @@ function App() {
       <Route index element={<Home/>} />
       <Route path='/shop' element={<Shop/>} />
       <Route path='/Cart' element={<Cart/>} />
+      <Route path='/Checkout' element={<Checkout/>} />
+      <Route path='/shop/Details' element={<ProductDetails/>} />
       <Route path='*' element={<NotFound/>} />
 
     </Route>
