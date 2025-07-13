@@ -15,7 +15,7 @@ const Breadcrumb = () => {
           <Link to={`/${path1}`}>{path1}</Link>
         </li>
         {
-          path2 &&
+          path2 && (
           <>
             <li><BiChevronRight size={25}/></li>
             <li className="font-light capitalize border-l-2 border-secondary pl-6 ">
@@ -24,7 +24,7 @@ const Breadcrumb = () => {
               </p>
             </li>
           </>
-        }
+        )}
     </ul>
     </>
   )
