@@ -83,15 +83,4 @@ const Explore = () => {
 }
 
 export default Explore
-{/* <img src="public/expo-1.png" alt="" className=''/>
-          <div>
-            <div className='absolute left-[24px] bottom-[24px] px-5 py-8 bg-[rgba(255,255,255,0.72)] '>
-              <h3 className='font-Poppins font-medium text-secondary text-[16px]'>01 —— Bed Room</h3>
-              <h3 className='font-Poppins font-semibold text-primary text-[28px]'>Inner Peace</h3>
-            </div>
 
-            <div>
-              <button className='absolute left-[231px] bottom-[24px] p-4 bg-brand text-white'><BsArrowRight size={24}/></button>
-            </div>
-
-          </div> */}

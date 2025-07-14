@@ -46,7 +46,7 @@ const Products = () => {
     <div className="text-center">
       <Link
         to="/shop"
-        className="px-8 py-3 inline-block font-Poppins font-semibold text-[16px] border border-brand text-brand hover:bg-brand hover:text-white transition"
+        className="px-20 py-3 inline-block font-Poppins font-semibold text-[16px] border border-brand text-brand hover:bg-brand hover:text-white transition"
       >
         Show More
       </Link>

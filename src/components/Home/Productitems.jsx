@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ProductItems = () => {
+ 
   return (
     <div className='cursor-pointer'>
       <div className='relative group'>
-        <img src="public/product1.png" alt="product" className='w-full' />
+        <img src="/product1.png" alt="product" className='w-full' />
         <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center bg-[rgba(58,58,58,0.3)] group scale-0 group-hover:scale-100 transition-normal '>
           <button className='font-semibold font-Poppins text-brand cursor-pointer bg-white px-12 py-3 text-[16px] inline-block'>Add to cart</button>
         </div>
