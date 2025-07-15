@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrumb from '../components/Breadcrumb'
+import Breadcrumb from '../components/Utilities/Breadcrumb'
 import Details from '../components/ProductDetails/Details'
 import RelatedProduct from '../components/ProductDetails/RelatedProduct'
 import Description from '../components/ProductDetails/Description'

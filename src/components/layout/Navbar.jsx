@@ -5,7 +5,7 @@ import { GrFavorite } from 'react-icons/gr'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
 import { TbUserExclamation } from 'react-icons/tb'
 import { Link} from 'react-router-dom'
-import CartSidebar from './Cart/CartSidebar'
+import CartSidebar from '../Cart/CartSidebar'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,6 @@
 import React from 'react'
-import PageBanner from '../components/PageBanner'
+import PageBanner from '../components/Utilities/PageBanner'
+import Feature from '../components/Utilities/Feature';
 
 const Checkout = () => {
   return (
@@ -13,10 +14,10 @@ const Checkout = () => {
             <h2 className="text-2xl font-bold mb-6">Billing details</h2>
 
             <form className=" flex flex-col gap-4 w-[453px] ">
-              <di outline-0v className='flex gap-8'>
+              <div outline-0v className='flex gap-8'>
                 <input type="text" placeholder="First Name" className="w-53 outline-0 border border-secondary  p-3 rounded" />
                 <input type="text" placeholder="Last Name" className="w-53 outline-0 border  border-secondary p-3 rounded" />
-              </di> border-secon 
+              </div>  
               <div className="md:col-span-1">
                 <input type="text" placeholder="Company Name (Optional)" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
@@ -106,6 +107,7 @@ const Checkout = () => {
             </button>
           </div>
         </div>
+        <Feature/>
       </section>
     </>
   );

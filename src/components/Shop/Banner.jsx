@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrumb from '../Breadcrumb'
+import Breadcrumb from '../Utilities/Breadcrumb'
 import logo from "/public/logo.png"
 
 const Banner = () => {

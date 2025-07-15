@@ -2,12 +2,12 @@ import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
 import Shop from './pages/Shop'
-import NotFound from './components/NotFound/NotFound'
-import Layout from './components/Layout'
 import Cart from './pages/Cart'
 import Checkout from './pages/Checkout'
-import Details from './pages/ProductDetails'
 import ProductDetails from './pages/ProductDetails'
+import ErrorPage from './pages/ErrorPage'
+import Layout from './components/Layout/Layout'
+import Contact from './pages/Contact'
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
@@ -17,7 +17,8 @@ function App() {
       <Route path='/shop/Details' element={<ProductDetails/>} />
       <Route path='/Cart' element={<Cart/>} />
       <Route path='/Checkout' element={<Checkout/>} />
-      <Route path='*' element={<NotFound/>} />
+      <Route path='/Contact' element={<Contact/>} />
+      <Route path='*' element={<ErrorPage/>} />
 
     </Route>
   ))

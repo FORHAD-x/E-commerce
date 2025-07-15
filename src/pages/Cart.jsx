@@ -1,8 +1,8 @@
 import { AiFillDelete } from "react-icons/ai"; 
 import React from 'react'
 import Banner from '../components/Shop/Banner'
-import PageBanner from '../components/PageBanner'
-import Feature from '../components/Feature'
+import PageBanner from '../components/Utilities/PageBanner'
+import Feature from '../components/Utilities/Feature'
 import CartItem from "../components/Cart/CartItem";
 import CartButton from "../components/Cart/CartButton";
 
