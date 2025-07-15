@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Furniture = () => {
 
   return (
@@ -14,15 +13,15 @@ const Furniture = () => {
         </h2>
       </div>
       <div className='Furniture_img h-[720px] md:gap-4 '>
-        <img src="public/Furniture1.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture2.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture3.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture5.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture6.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture4.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture7.png" className='w-full h-full ' alt="" />
-        <img src="public/Furniture9.png"  className='w-full h-full 'alt="" />
-        <img src="public/Furniture8.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture1.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture2.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture3.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture5.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture6.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture4.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture7.png" className='w-full h-full ' alt="" />
+        <img src="/Furniture9.png"  className='w-full h-full 'alt="" />
+        <img src="/Furniture8.png" className='w-full h-full ' alt="" />
       </div>
     </section>
     

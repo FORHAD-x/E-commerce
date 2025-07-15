@@ -18,31 +18,6 @@ const Explore = () => {
 
   };
   return (
-    // <section className='Explore bg-[#FCF8F3] mb-[67px] py-11'>
-    //   <div className="container flex gap-[42px] items-center">
-    //     <div>
-    //       <h2 className='font-bold font-Poppins text-primary text-[40px] leading-14'>50+ Beautiful rooms <br /> inspiration</h2>
-    //       <p className='font-medium font-Poppins text-secondary text-[16px] pt-2 pb-6'>Our designer already made a lot of beautiful <br /> prototipe of rooms that inspire you</p>
-    //       <div className='font-semibold font-Poppins text-white bg-brand px-9 py-3 text-[16px] inline-block'>
-    //         <Link to={"/"} >Explore More</Link>
-    //       </div>
-    //     </div>
-    
-    //      <div className='relative w-3/5'>
-    //      <Slider {...settings}>
-    //       <div className='slide_item'>
-    //         <img src="public/expo-1.png" alt="" />
-    //       </div>
-    //       <div className='slide_item'>
-    //         <img src="public/expo-2.png" alt="" />
-    //       </div>
-    //       <div className='slide_item'>
-    //         <img src="public/expo-3.png" alt="" />
-    //       </div>
-    //      </Slider>
-    //     </div>        
-    //   </div>
-    // </section>
     <section className="Explore bg-[#FCF8F3] mb-[67px] py-11">
       <div className="container mx-auto px-4 flex flex-col-reverse lg:flex-row gap-10 items-center">
         {/* Left Content */}
@@ -66,13 +41,13 @@ const Explore = () => {
         <div className="w-full lg:w-3/5">
           <Slider {...settings}>
             <div className="slide_item">
-              <img src="/public/expo-1.png" alt="Room 1" className="w-full h-auto rounded" />
+              <img src="/expo-1.png" alt="Room 1" className="w-full h-auto rounded" />
             </div>
             <div className="slide_item">
-              <img src="/public/expo-2.png" alt="Room 2" className="w-full h-auto rounded" />
+              <img src="/expo-2.png" alt="Room 2" className="w-full h-auto rounded" />
             </div>
             <div className="slide_item">
-              <img src="/public/expo-3.png" alt="Room 3" className="w-full h-auto rounded" />
+              <img src="/expo-3.png" alt="Room 3" className="w-full h-auto rounded" />
             </div>
           </Slider>
         </div>

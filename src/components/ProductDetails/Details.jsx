@@ -23,12 +23,12 @@ const [color, setColor] = useState("")
 const [quantity, setQuantity] = useState(1)
 
   return (
-    <section className='pt-9 pb-17 border-b-1 border-secondary'>
+    <section className='pt-9 pb-17 border-b-1 border-[#D9D9D9]'>
         <div className="container flex gap-20">
             <div className='w-1/2'>
                 <ProductSlide settings={settings} api={API.images} />
             </div>
-            <div className='w-1/2 border-b-1 border-secondary'>
+            <div className='w-1/2 border-b-1 border-[#D9D9D9]'>
             <h2 className='font-Poppins font-normal text-[42px] text-black'>Asgaard sofa</h2>
             <p className='font-Poppins font-medium text-[24px] text-secondary'>Rs. 250,000.00</p>
             <div className="flex items-center gap-5">
@@ -39,7 +39,7 @@ const [quantity, setQuantity] = useState(1)
                     <li><AiFillStar  size={20}/></li>
                     <li><AiFillStar size={20} /></li>
                 </ul>
-                <p className="pl-5  border-l-1  border-primary font-Poppins font-normal text-base text-primary">5 Customer Review</p>
+                <p className="pl-5  border-l-1  border-[#9F9F9F] font-Poppins font-normal text-base text-primary">5 Customer Review</p>
             </div>
             <p className="w-[422px] font-Poppins font-normal text-base text-black">Setting the bar as one of the loudest speakers
                in its class, the Kilburn is a compact, 
@@ -92,7 +92,7 @@ const [quantity, setQuantity] = useState(1)
             </div>
             {/* cart */}
             <div className="flex items-center gap-5 pt-3 pb-15">
-              <div className="flex px-7.5 py-1.5 gap-5 cursor-pointer border-1 border-black rounded-[50px] font-Poppins font-normal text-base text-black w-fit">
+              <div className="flex px-7.5 py-1.5 gap-5 cursor-pointer border-1 border-[#D9D9D9] rounded-[50px] font-Poppins font-normal text-base text-black w-fit">
                 <button onClick={() => {quantity > 1 && setQuantity(quantity - 1)}}>-</button>
                 <p className="font-medium w-5 flex  items-center justify-center">{quantity}</p>
                 <button onClick={() => {setQuantity(quantity + 1)}}>+</button>

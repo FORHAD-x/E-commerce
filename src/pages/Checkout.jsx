@@ -1,59 +1,52 @@
 import React from 'react'
 import PageBanner from '../components/PageBanner'
 
-// const Checkout = () => {
-//   return (
-//     <>
-//     <PageBanner title={"Checkout"}/>
-//     </>
-//   )
-// }
-
-// export default Checkout
-
-
 const Checkout = () => {
   return (
     <>
     <section>
     <PageBanner title={"Checkout"}/>
-        <div className="container flex gap-7 py-15">
+        <div className="container flex justify-center py-15">
           {/* Billing Details */}
-          <div className="w-1/2 py-9">
+          <div className="w-1/2 py-9 px-18">
+
             <h2 className="text-2xl font-bold mb-6">Billing details</h2>
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" placeholder="First Name" className="w-53 border p-3 rounded" />
-              <input type="text" placeholder="Last Name" className="w-53 border p-3 rounded" />
-              <div className="md:col-span-2">
-                <input type="text" placeholder="Company Name (Optional)" className="border p-3 rounded w-full" />
+
+            <form className=" flex flex-col gap-4 w-[453px] ">
+              <di outline-0v className='flex gap-8'>
+                <input type="text" placeholder="First Name" className="w-53 outline-0 border border-secondary  p-3 rounded" />
+                <input type="text" placeholder="Last Name" className="w-53 outline-0 border  border-secondary p-3 rounded" />
+              </di> border-secon 
+              <div className="md:col-span-1">
+                <input type="text" placeholder="Company Name (Optional)" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <select className="border p-3 rounded w-full">
+                <select className="border outline-0 border-secondary  p-3 rounded w-full">
                   <option>Bangladesh</option>
                 </select>
               </div>
               <div className="md:col-span-2">
-                <input type="text" placeholder="Street address" className="border p-3 rounded w-full" />
+                <input type="text" placeholder="Street address" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <input type="text" placeholder="Town / City" className="border p-3 rounded w-full" />
+                <input type="text" placeholder="Town / City" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <select className="border p-3 rounded w-full">
+                <select className="border outline-0 border-secondary p-3 rounded w-full">
                   <option>Western Province</option>
                 </select>
               </div>
               <div className="md:col-span-2">
-                <input type="text" placeholder="ZIP code" className="border p-3 rounded w-full" />
+                <input type="text" placeholder="ZIP code" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <input type="text" placeholder="Phone" className="border p-3 rounded w-full" />
+                <input type="text" placeholder="Phone" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <input type="email" placeholder="Email address" className="border p-3 rounded w-full" />
+                <input type="email" placeholder="Email address" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
               <div className="md:col-span-2">
-                <input type="text" placeholder="Additional information" className="border p-3 rounded w-full" />
+                <input type="text" placeholder="Additional information" className="border outline-0 border-secondary p-3 rounded w-full" />
               </div>
             </form>
           </div>
