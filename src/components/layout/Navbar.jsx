@@ -40,8 +40,8 @@ const Navbar = () => {
           ${isOpen ? "flex flex-col absolute top-[90px] left-0 w-full bg-white py-6 z-50" : "hidden"}`}>
           <li><Link to={"/"}>Home</Link></li>
           <li><Link to={"/shop"}>Shop</Link></li>
-          <li><Link to={"/About"}>About</Link></li>
           <li><Link to={"/Contact"}>Contact</Link></li>
+          <li><Link to={"/Blog"}>Blog</Link></li>
         </ul>
 
 
