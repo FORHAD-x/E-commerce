@@ -5,12 +5,13 @@ import Products from '../components/Home/Products'
 import Explore from '../components/Home/Explore'
 import Furniture from '../components/Home/Furniture'
 
+
 const Home = () => {
   return (
     <>
     <Hero/>
     <Browse/>
-    <Products/>
+    <Products/> 
     <Explore/>
     <Furniture/>
     {/* <Footer/> */}
